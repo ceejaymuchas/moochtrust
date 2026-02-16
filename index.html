@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MOOCH Foundation | Mission Of Outreach for Children’s Hope</title>
+  <style>
+    :root {
+      --navy: #0a1f44;
+      --darkblue: #102a5c;
+      --orange: #f7931e;
+      --white: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', Arial, sans-serif;
+    }
+
+    body {
+      background: var(--white);
+      color: var(--darkblue);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, var(--navy), var(--darkblue));
+      color: var(--white);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: var(--orange);
+    }
+
+    header p {
+      max-width: 700px;
+      margin: 20px auto;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: var(--navy);
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--orange);
+    }
+
+    section {
+      padding: 70px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--navy);
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--white);
+      border-left: 5px solid var(--orange);
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .donate {
+      background: var(--darkblue);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .donate h2 {
+      color: var(--orange);
+    }
+
+    .donate button {
+      background: var(--orange);
+      border: none;
+      color: var(--white);
+      padding: 15px 35px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 30px;
+    }
+
+    footer {
+      background: var(--navy);
+      color: var(--white);
+      text-align: center;
+      padding: 30px 15px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="background.png" alt="MOOCH Foundation Logo" class="background">
+
+  <h1>MOOCH Foundation</h1>
+  <p><strong>Mission Of Outreach for Children’s Hope</strong><br>
+  Nurturing hope. Building futures for children in rural Zimbabwe.</p>
+</header>
+
+<nav>
+   <a href="index.html">Home</a>
+  <a href="mission-vision.html">Mission & Vision</a>
+  <a href="programs.html">Programs</a>
+  <a href="contact.html">Contact</a>
+  <a href="donate.html">Donate</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    MOOCH Foundation is a social welfare organization dedicated to improving the lives of children living in rural and marginalized communities of Zimbabwe, including areas such as Gokwe.
+    We focus on providing food, school uniforms, sanitary wear, clean water, and safe educational infrastructure.
+  </p>
+</section>
+
+<section id="mission">
+  <h2>Mission & Vision</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Our Mission</h3>
+      <p>To uplift and empower children in rural Zimbabwe by providing essential resources and building sustainable community-driven solutions.</p>
+    </div>
+    <div class="card">
+      <h3>Our Vision</h3>
+      <p>A Zimbabwe where every child has access to education, nutrition, clean water, and a safe environment to thrive.</p>
+    </div>
+  </div>
+</section>
+
+<section id="programs">
+  <h2>Our Programs</h2>
+  <div class="cards">
+    <div class="card">School Feeding Program</div>
+    <div class="card">Back-to-School Uniform Drive</div>
+    <div class="card">Dignity for Girls – Sanitary Wear</div>
+    <div class="card">Clean Water & Borehole Projects</div>
+    <div class="card">Rural School Construction & Renovation</div>
+  </div>
+</section>
+
+<section id="donate" class="donate">
+  <h2>Donate & Support</h2>
+  <p>
+    Your contribution helps provide food, education, dignity, and hope to children in rural Zimbabwe.
+    Together, we can change lives.
+  </p>
+  <button>Donate Now</button>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    📍 Zimbabwe<br>
+    📧 Email: info@moochfoundation.org<br>
+    ☎ Phone: +263 71 777 6827
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 MOOCH Foundation | Mission Of Outreach for Children’s Hope</p>
+</footer>
+
+</body>
+</html>
